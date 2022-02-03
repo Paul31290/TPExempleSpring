@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: monprojet.dao.CountryRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.149 s <<< FAILURE! - in monprojet.dao.CountryRepositoryTest
+testlistPays  Time elapsed: 0.032 s  <<< ERROR!
+org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 3; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 3
+	at monprojet.dao.CountryRepositoryTest.testlistPays(CountryRepositoryTest.java:57)
+Caused by: javax.persistence.NonUniqueResultException: query did not return a unique result: 3
+	at monprojet.dao.CountryRepositoryTest.testlistPays(CountryRepositoryTest.java:57)
+
